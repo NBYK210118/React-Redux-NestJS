@@ -1,6 +1,6 @@
-import { useEffect, useState } from 'react';
+import { useEffect } from 'react';
 import { useDispatch, useSelector } from 'react-redux';
-import { useNavigate, useParams } from 'react-router-dom';
+import { useNavigate } from 'react-router-dom';
 import { addBoard, updateBoard } from '../../../features/blog/blogSlice';
 import { setContent, setTitle } from '../../../features/blog/manageBlog';
 
